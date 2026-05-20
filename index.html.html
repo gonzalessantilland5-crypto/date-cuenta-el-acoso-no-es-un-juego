@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NO AL ACOSO</title>
+
+     <style>
+        body {
+            margin: 0;
+            background: #ffffff;
+            font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+        }
+        
+        #pantalla-carga {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: #0b0b0b;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            user-select: none;
+
+        }
+
+        .loader {
+            font-size: 110px;
+            color: #7B2CBF;
+            text-shadow: 0 0 15px #7B2CBF, 0 0 30px #9d4edd;
+            cursor: default;
+            margin-bottom: 20px;
+
+            animation: cargar 1.5s infinite ease-in-out;
+        }
+
+        .mensaje {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.9;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        @keyframes cargar {
+            0% { transform: scale(1) rotate(0deg); opacity: 0.5; }
+            
+            50%{ transform: scale(1.35) rotate(10deg); opacity: 1; }
+            
+            100% { transform: scale(1) rotate(0deg); opacity: 0.5; }
+            
+        }        
+
+        #contenido-pagina {
+            display: none;
+            min-height: 100vh;
+            padding: 30px;
+            color: black;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        #contenido-pagina h1 {
+            color: black;
+            font-size: 60px;
+            margin: 0px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div id="pantalla-carga">
+        <div class="loader">♀</div>
+        <div class="mensaje">ACOSO</div>
+    </div>
+
+    <div id="contenido-pagina">
+        <h1>ACOSO</h1>
+        <h2>El ACOSO NO ES UN JUEGO</h2>
+        <h2>Concepto, tipos principales y formas de conductas de acoso</h2>
+        <h2>1.Concepto general</h2>
+        <p>Con carácter general, se entiende por acoso, en cualquiera de sus formas, todo comportamiento por acción u omisión mantenido en el tiempo, sea éste verbal o físico, que tenga el propósito o produzca el efecto de atentar contra la dignidad de una persona, en particular cuando se crea un entorno de indefensión, intimidatorio, degradante u ofensivo.</p>
+        <h2>2.Tipos de acoso</h2>
+        <p>unque la forma habitual de acoso parte de una posición jerarquizada de poder, existen también otras formas:</p>
+        <p>•Acoso descendente: Se refiere al acoso que se produce desde una persona que ocupa una posición superior a la víctima.</p>
+        <p>•Acoso horizontal: Trata el acoso que se origina entre compañeros y compañeras de la misma categoría o nivel jerárquico.</p>
+        <p>•Acoso ascendente: Procede desde una persona que ocupa un puesto inferior a la situa- ción de la víctima.</p>
+        <p>•Interseccionalidad: El origen del acoso puede producirse por razones múltiples y simul- táneas. Por ese motivo se entenderá que el acoso puede originarse por una o varias ra- zones.</p>
+        <h2>Principales formas de acoso</h2>
+        <p>A continuación se recogen algunas formas de acoso que por su habitualidad aparecen definidas en la normativa (ámbito de aplicación objetivo). En ningún caso deben entenderse como una lista cerrada, todo lo contrario, las conductas de acoso son muy diversas y cada vez se conocen nuevas estrategias, bien de forma individual o en combinación de conductas, por lo que siempre debe dejarse abierto el listado de comportamientos de acoso</p>
+        <p>1.Acoso laboral: Hostigamiento psicológico u hostil en el marco de cualquier actividad laboral o funcionarial que humille a quien lo sufre, imponiendo situaciones de grave ofensa a la dignidad. (Ley Orgánica 5/2010, de 22 de junio). De conformidad con el Acuerdo Marco Europeo sobre acoso y violencia en el lugar de trabajo de 26 de abril de 2007, se considera que hay acoso cuando se maltrata a una o más personas varias veces y deliberadamente, se les amenaza o se les humilla en situaciones vinculadas con su trabajo. Y se considera hay violencia cuando se produce una agresión a una o más personas en situaciones vinculadas con su trabajo. Tanto el acoso como la violencia tendrán la finalidad o el efecto de perjudicar la dignidad de la víctima, dañar su salud o crearle un entorno de trabajo hostil.</p>
+        <p>2.Acoso sexual: Cualquier comportamiento, verbal o físico, de naturaleza sexual, que tenga el propósito o produzca el efecto de atentar contra la dignidad de una persona, en particular cuando se cree un entorno intimidatorio, degradante u ofensivo. (Ley Orgánica 3/2007, de 22 de marzo)</p>
+        <p>3.Acoso por razón de sexo: Cualquier comportamiento relacionado con el sexo de una persona, con el propósito o el efecto de atentar contra su dignidad y de crear un entorno intimidatorio, degradante u ofensivo. (Ley Orgánica 3/2007, de 22 de marzo)</p>
+        <p>4.Acoso psicológico o moral: De conformidad con el Protocolo de actuación frente al acoso del Consejo General del Poder Judicial, se considera acoso psicológico o moral la exposición a conductas de violencia psicológica intensa, dirigidas de forma reiterada y prolongada en el tiempo hacia una o más personas, por parte de otra/s que actúan frente a aquélla/s desde una posición de poder –no necesariamente jerárquica sino en términos psicológicos-, con el propósito o el efecto de crear un entorno hostil o humillante que perturbe la vida profesional de la víctima. Esta conducta es un atentado a la dignidad de la persona y un riesgo para su salud.</p>
+        <p>5.Ciberacoso: El hostigamiento y ataque en cualquiera de las formas de acoso a través de las tecnologías de la comunicación. Este ciberacoso hace referencia a la forma de ejercerlo, no al tipo de acoso, configurando una forma de acoso, no un tipo específico de conducta acosadora .</p>
+        <p>6.Otros tipos de acoso: Dentro del acoso moral discriminatorio se incluye también toda conducta no deseada relacionada con el origen racial o étnico, religión o convicciones, diversidad funcional, o por diversidad sexual de una persona, que tenga como objetivo o consecuencia atentar contra su dignidad y crear un entorno intimidatorio, humillante u ofensivo. (Ley Orgánica 62/2003, de 30 de diciembre)</p>
+        <h2>Listado no exhaustivo de conductas relacionadas con los diferentes tipos de acoso</h2>
+        <p>Con fines orientativos, y nunca de manera exhaustiva, se recogen algunos ejemplos de conductas de acoso que aparecen referidas en distintas normativas. Aunque se recogen asociadas a los tipos de acoso donde se presentan con más frecuencia, no son exclusivas de dichos tipos y pueden algunas de ellas aparecer formando parte de distintos tipos.</p>
+        <h3>Acoso laboral</h3>
+        <p>1.Dejar al profesional de forma continuada sin ocupación efectiva, o incomunicado, sin causa alguna que lo justifique, ocupación en tareas inútiles o que no tienen valor.</p>
+        <p>2.Exigir resultados desproporcionados de imposible cumplimiento con relación a los me- dios materiales y personales que se asignan.</p>
+        <p>3.Acciones de represalia frente a quienes han planteado quejas, denuncias o demandas, o a quienes han colaborado con las personas reclamantes.</p>
+        <p>4.Insultar o menospreciar repetidamente, reprenderlo reiteradamente delante de otras personas, o difundir rumores sobre su profesión o sobre su vida privada</p>
+        <h3>Acoso sexual</h3>
+        <p>1.Contacto físico innecesario, rozamientos, palmaditas, abrazos, besos...</p>
+        <p>2.Observaciones sugerentes y desagradables, chistes o comentarios sobre la apariencia, aspecto o condición sexual de la persona, y abusos verbales deliberados.</p>
+        <p>3.Invitaciones impúdicas o comprometedoras o persistentes para participar en actividades sociales lúdicas, pese a que la persona objeto de las mismas haya dejado claro su negativa a la participación.</p>
+        <p>4.Uso de imágenes pornográficas en los lugares de trabajo.</p>
+        <p>5.Gestos obscenos.</p>
+        <p>6.Observación clandestina de personas en lugares reservados, como sería el caso de los servicios.</p>
+        <p>7.Demandas de favores sexuales.</p>
+        <p>8.Agresiones físicas.</p>
+        <p>9.Cualquier mensaje manuscrito, hablado o electrónico de carácter ofensivo de contenido sexual.</p>
+        <p>Dentro del acoso sexual se pueden producir dos contextos con unas circunstancias específicas: el chantaje sexual y el acoso sexual ambiental:</p>
+        <p>Chantaje sexual: Se habla de chantaje sexual cuando la negativa o la sumisión de una persona a una conducta se utiliza, implícita o explícitamente, como fundamento de una decisión que repercute sobre el acceso de esta persona a la formación profesional, al trabajo, a la continuidad del trabajo, la promoción profesional, el salario, entre otras. Solo son sujetos activos de este tipo de acoso aquellas personas que tengan poder de decidir sobre la relación laboral, es decir, la persona jerárquicamente superior.</p>
+        <p>Acoso sexual ambiental: Su característica principal es que los sujetos activos mantienen una conducta de naturaleza sexual, de cualquier tipo, que tiene como consecuencia, busca- da o no, producir un contexto intimidatorio, hostil, ofensivo o humillante. La condición afectada es el entorno, el ambiente de trabajo.</p>
+        <p>En este caso, también pueden ser sujetos activos los compañeros y compañeras de trabajo o terceras personas, relacionadas de alguna manera con la institución.</p>
+        <h3>Acoso por razón de sexo</h3>
+        <p>1.Comentarios despectivos acerca de las mujeres o de los valores considerados femeninos, y, en general, comentarios sexistas basados en prejuicios de género. También se pueden producir contra los hombres</p>
+        <p>2.Demérito de la valía profesional por el hecho de la maternidad o de la paternidad.</p>
+        <p>3.Conductas hostiles hacia quienes ejerciten derechos de conciliación de la vida personal, familiar y profesional.</p>
+        <p>4.Minusvaloración, desprecio o aislamiento de quien no se comporte conforme a los roles socialmente asignados a su sexo.</p>
+        <h3>Acoso psicológico o moral</h3>
+        <p>1.Dejar a una determinada persona dentro de su ámbito habitual (laboral, docencia, investi- gación o estudios) de forma continuada sin ocupación efectiva, o incomunicada, sin causa alguna que lo justifique.<p>
+        <p>2.Exigirle a esta persona unos resultados desproporcionados de imposible cumplimiento puestos en relación con los medios materiales y personales que se asignan ó ocuparla en tareas inútiles o que no tienen valor.<p>
+        <p>3.Tomar acciones de represalia frente a quienes han planteado quejas, denuncias o de- mandas, o a quienes han colaborado con las personas reclamantes.</p>
+        <p>4,Insultar o menospreciar repetidamente a cualquier persona, reprenderla reiteradamente delante de otras personas, o difundir rumores sobre su ámbito habitual o sobre su vida privada</p>
+        <h3>Ciberacoso</h3>
+        <p>1.Hostigamiento: envío de imágenes o de vídeos denigrantes, seguimiento mediante software espía, remisión de virus informáticos y humillación utilizando videojuegos.</p>
+        </p>2.Denigración: distribución de información sobre otra persona en un tono despectivo y falso mediante un anuncio en una web, envío de correos electrónicos, de mensajería instantánea o de fotografías de una persona alteradas digitalmente. Se pueden incluir también los cuadernos de opinión en línea.</p>
+        <p>3.Suplantación de la personalidad: entrada en una cuenta de correo electrónico o en una red social de otra persona para enviar o publicar material comprometedor sobre ella, manipulando y usurpando su identidad.</p>
+        <p>4.Difamación y juego sucio o outing and trickery (‘salida y engaño'): violación de la intimidad, engañando para que la persona comparta y transmita secretos o información confidencial sobre otra a fin de promover rumores difamatorios.</p>
+        <p>5.Acoso cibernético o cyberstalking: conducta repetida de hostigamiento y/o acoso con envío de mensajes ofensivos, groseros e insultantes y ciberpersecución. Se incluyen las amenazas de daño o intimidación que provocan que la persona tema por su seguridad.</p>
+        <h3>Otros tipos de acoso (acoso moral discriminatorio):</h3>
+        <p>Se incluyen comentarios o comportamientos racistas, contrarios a la libertad religiosa o a la no profesión de religión o credo, degradantes de la valía personal o profesional de las personas discapacitadas, peyorativos de las personas maduras o jóvenes, u homófobos o lesbófobos, incluyendo, en especial, los comportamientos de segregación o aislamiento de las personas discriminadas</p>
+        <h2>Circunstancias relacionadas con los casos de acoso</h2>
+        <p>La diversidad de conductas, escenarios, circunstancias y tipos de acoso, exige tener en consi- deración una serie de referencias sobre estos elementos.</p>
+        <h3>Elementos que implican una mayor gravedad de los hechos.</h3>
+        <p>A efectos de tener una serie de referencias sobre la gravedad del acoso y su posible impacto sobre la víctima, y sin perjuicio de lo que disciplinariamente se considere a la hora de determinar las sanciones que, en su caso, pudieran imponerse, se considerará una mayor gravedad de los hechos en aquellas situaciones en las que</p>
+        <p>1.La persona denunciada sea reincidente en la comisión de actos de acoso.</p>
+        <p>2.Existan dos o más víctimas.</p>
+        <p>3.Se demuestren conductas intimidatorias o represalias por parte de la persona agresora.</p>
+        <p>4.La persona agresora tenga poder de decisión sobre la relación laboral de la víctima. 5º La víctima sufra algún tipo de discapacidad física o mental.</p>
+        <p>5.El estado psicológico o físico de la víctima haya sufrido graves alteraciones, médicamente acreditadas.</p>
+        <p>6.El contrato de la víctima sea no indefinido, o que su relación con la empresa no tenga carácter laboral.</p>
+        <p>7.El acoso se produzca durante un proceso de selección o promoción de personal.</p>
+        <p>8.Se ejerzan presiones o coacciones sobre la víctima, testigos o personas de su entorno laboral o familiar, con el objeto de evitar o entorpecer el buen fin de la investigación.</p>
+        <p>9.Será siempre un agravante la situación de contratación temporal o en período de prueba e incluso como becario/a en prácticas de la víctima.</p>
+        <h3>Lugar del acoso</h3>
+        <p>La prohibición del acoso laboral, sexual o por razón de sexo, o cualquier otro tipo de acoso aquí descrito y de las conductas inapropiadas, comprende tanto los comportamientos desarrollados en la UGR como los que tengan lugar en funciones sociales vinculadas al ámbito académico, durante viajes o cualquiera labor realizada fuera del recinto universitario.</p>
+        <p>El lugar del acoso se verá ampliado a las circunstancias y contextos derivados por el uso de las nuevas tecnologías y su instrumentalización para ejercer ciberacoso</p>
+        <h3>Indemnidad frente a represalias</h3>
+        <p>También se considerará discriminación cualquier trato adverso o efecto negativo que se produzca en una persona como consecuencia de la presentación por su parte de queja, reclamación, denuncia, demanda o recurso, de cualquier tipo, destinados a impedir su discriminación y a exigir el cumplimiento efectivo del principio de igualdad de trato.</p>
+        </div>
+     <script>
+         setTimeout(function () {
+            document.getElementById('pantalla-carga').style.display = 'none';
+            document.getElementById('contenido-pagina').style.display ='flex';
+        }, 3000);
+    </script>
+  
+</body>
+</html
